@@ -4,8 +4,11 @@ Tool Box for auto customization for windows testing
 ## Run and Go (Double-Click) ...
 ```powershell
 curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat
-```
-## Or Using CMD / PowerShell ...
-```powershell
+
+# Or Using cmd ...
 curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat && .\tbx.bat
+
+# Or PowerShell ...
+curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat; .\tbx.bat
 ```
+
