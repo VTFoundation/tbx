@@ -2,6 +2,7 @@
 
 :start
 cls
+echo.
 echo  ^>^> Which Operation you want to perform?
 echo.
 echo  1 --^> Install Carbon Black (CB) Sensor.
