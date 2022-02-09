@@ -12,3 +12,5 @@ curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat 
 curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat; .\tbx.bat
 ```
 
+## When you simply Exit !!
+<img src="scripts/extras/exit.png">
