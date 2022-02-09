@@ -5,7 +5,7 @@ Tool Box for auto customization for windows testing
 ```powershell
 curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat
 
-# Or Using cmd ...
+# Using CMD?
 curl https://raw.githubusercontent.com/VTFoundation/tbx/main/tbx.bat -o tbx.bat && .\tbx.bat
 
 # Or PowerShell ...
