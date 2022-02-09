@@ -45,10 +45,8 @@ if %option%==3 (
 	echo.
 	echo  ** Carbon Black (CB^) Sensor Uninstalled Successfully ** 
 	echo.
-	curl https://raw.githubusercontent.com/VTFoundation/tbx/main/scripts/win-hostname-generator.ps1 -o C:\ProgramData\hn_gen.ps1 && powershell.exe C:\ProgramData\hn_gen.ps1
+	curl https://raw.githubusercontent.com/VTFoundation/tbx/main/scripts/win-hostname-generator.ps1 -o C:\ProgramData\hn_gen.ps1 && powershell.exe C:\ProgramData\hn_gen.ps1 && del C:\ProgramData\hn_gen.ps1
 	echo.
-	pause
-	del C:\ProgramData\hn_gen.ps1
 	goto start
 ) 
 if %option%==4 (
@@ -61,10 +59,8 @@ if %option%==4 (
 )
 if %option%==5 (
 	cls
-	curl https://raw.githubusercontent.com/VTFoundation/tbx/main/scripts/win-hostname-generator.ps1 -o C:\ProgramData\hn_gen.ps1 && powershell.exe C:\ProgramData\hn_gen.ps1
+	curl https://raw.githubusercontent.com/VTFoundation/tbx/main/scripts/win-hostname-generator.ps1 -o C:\ProgramData\hn_gen.ps1 && powershell.exe C:\ProgramData\hn_gen.ps1 && del C:\ProgramData\hn_gen.ps1
 	echo.
-	pause
-	del C:\ProgramData\hn_gen.ps1
 	goto start
 ) else (
 	cls
