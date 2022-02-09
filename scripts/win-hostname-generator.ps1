@@ -9,3 +9,4 @@ $newname = "$newname"+(($nums|Get-Random -Count 2) -join "")
 Rename-Computer -NewName $newname
 Write-Output " ** New Hostname: $newname **`n"
 Read-Host -Prompt "Press enter to reboot ..."
+Restart-Computer
