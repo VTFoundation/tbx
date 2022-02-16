@@ -1,7 +1,7 @@
 # TBX
 Tool Box for auto customization for windows testing
 
-##Run powershell as an admin and type this command to ensure the following commands will actually work!!
+## Run powershell as an admin and type this command to ensure the following commands will actually work!!
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
